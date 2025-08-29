@@ -1,12 +1,41 @@
-# React + Vite
+# Weather App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A **responsive and modern Weather App** built with **React**, **Tailwind CSS**, and **Recharts**. Search for a city or country to get **current weather conditions** along with a **5-day temperature forecast chart**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌐 Live Demo
+[https://forecast-skysphere.netlify.app/]
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📦 Features
+
+- Search weather by **city** or **country**.
+- Displays **current temperature**, **humidity**, and **wind speed**.
+- Shows **weather description** and **icon**.
+- **5-day temperature forecast** with interactive line chart using **Recharts**.
+- **Responsive design** for mobile, tablet, and desktop.
+- **Persistent search history** using `localStorage`.
+- Smooth **animations** and modern UI using **Tailwind CSS**.
+- Clean and maintainable **React components**.
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** React, Tailwind CSS
+- **Charts:** Recharts
+- **Icons:** React Icons (WiThermometer, WiHumidity, WiStrongWind, FiSearch)
+- **API:** [OpenWeather API](https://openweathermap.org/api)
+- **Deployment:** Netlify (or any static hosting)
+
+---
+
+## ⚡ Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/your-username/weather-app.git
+cd weather-app
